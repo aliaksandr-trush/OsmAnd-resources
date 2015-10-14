@@ -1,4 +1,3 @@
-% :- 
 % for turbo-prolog
 :- op('--', xfy, 500).
 % for swi-prolog
@@ -8,8 +7,8 @@ version(103).
 tts :- version(X), X > 99.
 voice :- version(X), X < 99.
 
-language(ru).
-fest_language(msu_ru_nsh_clunits).
+language('ru').
+fest_language('msu_ru_nsh_clunits').
 
 % IMPLEMENTED (X) or MISSING ( ) FEATURES:
 % (X) new Version 1.5 format
